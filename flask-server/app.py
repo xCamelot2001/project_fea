@@ -16,7 +16,7 @@ model = load_model('./emotion_detection_model_v1.h5')
 IMG_HEIGHT = 48
 IMG_WIDTH = 48
 CLASS_LABELS = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
-face_cascade = cv2.CascadeClassifier('/Users/camelot/project_fea/opencv-4.x/data/haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('../opencv-4.x/data/haarcascades/haarcascade_frontalface_default.xml')
 
 def process(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
