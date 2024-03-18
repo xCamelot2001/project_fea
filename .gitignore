@@ -22,3 +22,4 @@
 
 /flask-server/venv
 /opencv-4.x
+*.pyc
