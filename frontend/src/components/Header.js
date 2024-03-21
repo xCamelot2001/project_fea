@@ -4,7 +4,7 @@ function Header() {
     return (
         <header className="">
             <div>
-                <p>Emotion Detector</p>
+                <h1>Emotion Detector</h1>
                 <p>Powered by AWS Rekognition</p>
             </div>
         </header>
