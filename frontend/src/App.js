@@ -1,17 +1,17 @@
 import React from 'react';
-import { Container } from '@mui/material';
 import CameraControl from './CameraControl';
-import DisplayEmotion from './DisplayEmotion';
 
-
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 function App() {
   return (
-    <Container sx={{bgcolor:"grey", height:"100vh" }}>
-      <DisplayEmotion />
+    <div>
+      <Header />
       <CameraControl />
-    </Container>
+      <Footer />
+    </div>
   );
 }
 
